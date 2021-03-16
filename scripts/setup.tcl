@@ -17,6 +17,7 @@ set_property "target_language" "Verilog" $obj
 
 add_files -norecurse $srcsRoot/simple_adder.v
 add_files -norecurse $srcsRoot/tb_simple_adder.v
+# add_files -norecurse -fileset constrs_1 $srcsRoot/Zybo-Z7.xdc
 
 # If successful, "touch" a file so the make utility will know it's done 
 touch {.setup.done}
