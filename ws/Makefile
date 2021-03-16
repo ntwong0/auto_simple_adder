@@ -1,5 +1,5 @@
 # these are the sources - everything depends upon them
-RTL=../srcs/simple_adder.v ../srcs/tb_simple_adder.v
+RTL=../srcs/*
 
 # These are all the compilation targets, starting with "all"
 all : setup create_axi create_bd compile bootgen
